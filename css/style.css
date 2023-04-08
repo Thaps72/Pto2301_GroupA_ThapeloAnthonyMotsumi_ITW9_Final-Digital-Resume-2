@@ -1,0 +1,139 @@
+/*--!6FC183--colors--green--*/
+/*--78B7EA--blue--*/
+/*--FBCC88--*/
+
+/*--deflaut-styles--home-page--*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*--main-styles--*/
+.main_hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #2E4EA3;
+    position: relative;
+}
+
+/*--nav-styles--*/
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+/*--logo-styles--*/
+.logo{
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/*--logo-dot-styles--*/
+span{
+    color: #6FC183;
+    width: 50%;
+}
+/*--nav,lu,li-styles--*/
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+/*--nav,lu,li,a-styles--*/
+nav ul li a{
+text-decoration: none;
+font-size: 15px;
+color: #000;
+}
+
+/*--nav,lu,li,a,hover-styles--*/
+nav ul li a:hover{
+    color: #6FC183;
+    transition: 0.5s;
+}
+
+/*--text-styles--*/
+.text{
+    margin-left: 7%;
+    margin-top: 2px;
+}
+
+
+/*--text,h1-styles--*/
+.text h1{
+font-size: 32px;
+margin-bottom: 5px;
+}
+
+/*--text,a-styles--*/
+.text a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 6px 0;
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #6FC183;
+    border: 2px solid #6FC183;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*--text,a, hover-styles--*/
+.text a:hover{
+    background-color: transparent;
+    color: #003256;
+    border: 2px solid #003256;
+    transition: 0.5s;
+
+}
+
+/*--left-image-styles--*/
+.left-image{
+position: absolute;
+width: 40%;
+height: 80%;
+bottom: 40px;
+right: 100px;
+}
+
+/*--left-image,actual-image-styles--*/
+.left-image img{
+height: 100%;
+position: absolute;
+bottom: 0;
+left:50%;
+transform: translate(-50%);
+cursor: pointer;
+}
+
+/*--left-image,actual-image-hoverstyles--*/
+.left-image img:hover{
+transition: 1s;
+left: 40%;
+}
+
+/*-adding-mediaquries-smaller-600px--styles-home-page--*/
+@media only screen and (max-width:600px){
+    .left-image img{
+        display: none;
+    }
+span{
+color: #FBCC88;
+}
+
+nav ul li{
+    display: none;
+}
+}
