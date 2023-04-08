@@ -137,3 +137,43 @@ nav ul li{
     display: none;
 }
 }
+
+
+/*--deflaut-styles--about-page--*/
+.about_text h3{
+display: flex;
+justify-content: center;
+}
+
+h3{
+    color: #6FC183;
+}
+.about_text{
+    margin-left: 20px;
+}
+
+.socials-icons {
+    display: flex;
+    align-items: center;   
+}
+
+div{
+    margin-left: 20px; 
+}
+
+.socials-icons ul li a .fa-brands fa-instagram{
+    color: #6FC183;
+}
+
+.fa-brands{
+color: #6FC183;
+margin-left: 10px;
+}
+
+/*--about-page-footer-socialicons-fa-brands-section---*/
+.right_footer, .socials-icons ,.fa-brands li ,a {
+        color: #000;
+        margin: 5px;
+        font-size: 18px;
+        list-style-type: none;
+}
