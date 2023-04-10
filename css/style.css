@@ -180,6 +180,24 @@ margin-left: 10px;
 
 /*---resume-page--*/
 
-H4{
+h4{
     color: #6FC183;
+}
+
+@media only screen and (min-width:768px){
+    h4{
+        font-size: 18px;
+        color: #FBCC88;
+    }
+
+    .call{
+display: none;
+    }
+
+    .resume_text{
+ align-items: center;
+    }
+    .left-image img{
+        display: none;
+    }
 }
