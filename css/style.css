@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -170,10 +171,15 @@ color: #6FC183;
 margin-left: 10px;
 }
 
-/*--about-page-footer-socialicons-fa-brands-section---*/
 .right_footer, .socials-icons ,.fa-brands li ,a {
         color: #000;
         margin: 5px;
         font-size: 18px;
         list-style-type: none;
+}
+
+/*---resume-page--*/
+
+H4{
+    color: #6FC183;
 }
